@@ -52,7 +52,7 @@ bindsym $mod+i focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
-#bindsym $mod+Left focus left
+bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
@@ -187,3 +187,4 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightne
 
 # Wallpaper
 exec_always --no-startup-id feh --bg-scale ~/.wallpaper.jpeg
+exec_always --no-startup-id nm-applet

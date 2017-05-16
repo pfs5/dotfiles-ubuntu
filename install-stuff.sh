@@ -17,6 +17,11 @@ sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
 sudo apt-get install -y arc-theme
 
+#sudo apt-get install lightdm-gtk-greeter-settings
+sudo apt-get install lightdm-webkit-greeter
+
+sudo apt-get remove --purge nautilus
+
 sudo apt-get update
 sudo apt -y autoremove
 
